@@ -1,0 +1,18 @@
+{{with .Site.Data.cta}}
+{{ if .enable }}
+<section class="cta mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="cta-content">
+          <h2>{{.title}}</h2>
+          <a href="{{.buttonTarget | absURL }}" class="btn btn-secondary mb-3">
+              Clique aqui para entrar em contato
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+{{end}}
