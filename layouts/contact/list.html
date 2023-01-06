@@ -13,13 +13,17 @@
       <div class="col-lg-8 mx-auto">
         <div class="contact-form">
           <h2>Formulário para contato</h2>
-          <form id="contact-form" class="row" action="{{ .Site.Params.formspreeURL }}" method="POST">
-            <div class="col-md-6">
+          <form id="contact-form" class="row" netlify>
+            <div class="col-md-4">
               <input type="text" class="form-control" id="exampleFormControlInput1" name="Name" placeholder="Nome">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
               <input type="email" class="form-control" id="validationCustom02" required="" name="email" placeholder="Email">
             </div>
+            <div class="col-md-4">
+              <input type="tel" class="form-control" id="validationCustom03" required="" name="number" placeholder="(xx) xxxxx-xxxx">
+            </div>
+
             <div class="col-md-12">
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" name="message"
                 placeholder="Messagem"></textarea>
