@@ -4,17 +4,19 @@
     <div class="row no-gutters">
       <div class="col-lg-12">
         <div class="contact-aria">
-          <h3>
-            {{ $address.address | safeHTML }}
-          </h3>
-          <ul>
-            <li> <a href="mailto:{{ $address.email }}">{{ $address.email }}</a></li>
-            <li><a href="tel:{{ $address.phone}}">{{ $address.phone }}</a></li>
-          </ul>
-          <p>
-            {{ $address.openingDesc }}
-          </p>
-          <p>{{ $address.openingHours }}</p>
+          <div class="container">
+            <h3>
+              {{ $address.address | safeHTML }}
+            </h3>
+            <ul>
+              <li> <a href="mailto:{{ $address.email }}">{{ $address.email }}</a></li>
+              <li><a href="tel:{{ $address.phone}}">{{ $address.phone }}</a></li>
+            </ul>
+            <p>
+              {{ $address.openingDesc }}
+            </p>
+            <p>{{ $address.openingHours }}</p>
+          </div>
         </div>
       </div>
     </div>

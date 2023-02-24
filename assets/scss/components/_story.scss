@@ -1,6 +1,7 @@
 .story {
   position: relative;
   display: flex;
+  padding-bottom: 100px;
   align-items: center;
   &-content {
     @include tablet {

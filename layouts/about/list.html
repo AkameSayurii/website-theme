@@ -20,11 +20,9 @@
         </div>
       </div>
       <div class="col-lg-6">
-        <div class="story-slider">
+        <div>
           {{range .Params.sliderImage }}
-            <div class="slider-item">
-              <img src="{{ .image | absURL }}" alt="images">
-            </div>
+              <img class="img-fluid rounded" src="{{ .image | absURL }}" alt="images">
           {{end}}
         </div>
       </div>
