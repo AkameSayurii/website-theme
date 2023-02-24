@@ -4,8 +4,9 @@
   padding-bottom: 100px;
   align-items: center;
   &-content {
+      text-align: justify;
     @include tablet {
-      text-align: center;
+      text-align: justify;
     }
     h2 {
       margin-bottom: 20px;
