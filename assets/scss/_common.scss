@@ -98,9 +98,9 @@
   }
 }
 .about {
-  padding-top: 150px;
+  padding-top: 200px;
   @include mobile {
-    padding-top: 120px;
+    padding-top: 200px;
   }
 }
 // bloge page-title
@@ -108,16 +108,16 @@
   padding: 200px 0 50px;
   text-align: center;
   @include desktop-lg {
-    padding: 130px 0 50px;
+    padding: 200px 0 50px;
   }
   @include desktop {
-    padding: 140px 0 50px;
+    padding: 200px 0 50px;
   }
   @include mobile {
-    padding: 110px 0 30px;
+    padding: 200px 0 30px;
   }
   @include mobile-xs {
-    padding: 110px 0 0px;
+    padding: 200px 0 0px;
   }
 
   h1 {

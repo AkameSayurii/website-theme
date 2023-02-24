@@ -108,14 +108,14 @@
 
 .post {
   text-align: center;
-  padding-top: 150px;
+  padding-top: 200px;
   padding-bottom: 90px;
 
   @include desktop {
     padding-bottom: 50px;
   }
   @include mobile {
-    padding-top: 110px;
+    padding-top: 200px;
     padding-bottom: 40px;
   }
 
