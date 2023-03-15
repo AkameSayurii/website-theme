@@ -2,8 +2,8 @@
   &-aria {
     background: #074621;
     padding: 30px;
+    text-align: center;
     @include desktop {
-      text-align: center;
       padding: 5px 50px;
     }
     @include mobile {
