@@ -14,7 +14,7 @@
     {{hugo.Generator}}
     {{ "<!-- Critical CSS -->" | safeHTML }}
     {{$style :=  resources.Get "scss/critical.scss" | resources.ToCSS | resources.Minify }}
-    <link href="{{ $style.Permalink }}" rel="preload" as="stylesheet" />
+    <link href="{{ $style.Permalink }}" rel="stylesheet" />
 
     <meta name="description" content="Psicóloga Comportamental, pós graduada em Psicologia Clínica Hospitalar. Marque sua sessão.">
 
