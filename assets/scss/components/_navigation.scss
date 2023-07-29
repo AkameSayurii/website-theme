@@ -6,7 +6,6 @@
   top: 0;
   width: 100%;
   @include desktop {
-    background: $white;
     padding: 30px;
   }
   @include mobile {
