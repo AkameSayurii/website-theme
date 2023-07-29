@@ -14,10 +14,10 @@
     {{hugo.Generator}}
     {{ "<!-- Critical CSS -->" | safeHTML }}
     {{$style :=  resources.Get "scss/critical.scss" | resources.ToCSS | resources.Minify }}
-    <link href="{{ $style.Permalink }}" rel="stylesheet" />
+    <link href="{{ $style.Permalink }}" rel="preload" as="stylesheet" />
 
-    <meta name="description" content="Psicóloga - análise do comportamento">
-  
+    <meta name="description" content="Psicóloga Comportamental, pós graduada em Psicologia Clínica Hospitalar. Marque sua sessão.">
+
 
     {{"<!-- Favicon -->" | safeHTML}}
     <link rel="shortcut icon" href="{{"images/favicon.png" | absURL}}" type="image/x-icon" />
@@ -30,12 +30,12 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-  
+
       gtag('config', '{{ . }}');
-      
+
     </script>
     {{ end }}
 
-    
+
   </head>
 
