@@ -101,7 +101,7 @@
         }
 
         a {
-          color: #666666;
+          color: $text-color-dark;
           transition: all 0.3s ease-in-out;
           text-decoration: none;
 
@@ -127,6 +127,7 @@
       font-size: 14px;
       margin-bottom: 0;
       line-height: 2.8;
+      color: $text-color-dark;
     }
 
     ul {
@@ -141,7 +142,7 @@
 
         a {
           font-size: 14px;
-          color: #666666;
+          color: $text-color-dark;
           transition: all 0.3s ease-in-out;
           padding: 8px 0;
         }
