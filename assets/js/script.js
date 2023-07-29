@@ -36,15 +36,6 @@ $(document).ready(function () {
     disable: "mobile",
   });
 
-  // Service Item Match Height
-  $(".service-item").matchHeight({
-    byRow: 0,
-  });
-
-  // .blog-content Match Height
-  $(".blog-content").matchHeight({
-    byRow: 0,
-  });
   $(".story-slider").slick({
     dots: true,
     infinite: true,
