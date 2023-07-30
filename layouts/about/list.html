@@ -14,12 +14,12 @@
 <section class="story">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-8">
         <div class="story-content">
           {{.Content}}
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-4">
         <div>
           {{range .Params.sliderImage }}
               <img class="img-fluid rounded" style="margin-top: 70px" src="{{ .image | absURL }}" alt="images">
